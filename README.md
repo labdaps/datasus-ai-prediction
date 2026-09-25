@@ -10,6 +10,13 @@ pinned: false
 license: mit
 ---
 
+> [!IMPORTANT]
+> **Linhagem arquivada.** Este repositorio e um fork espelho do [fabianofilho/datasus-ai-prediction](https://github.com/fabianofilho/datasus-ai-prediction), sem desenvolvimento proprio, e fica arquivado junto com ele. O historico aqui para no commit `b97d0fe`, anterior ao `b79bc78`, e nao traz as correcoes feitas depois no original. O app canonico do laboratorio e o [fabianofilho/lab-ai-prediction](https://github.com/fabianofilho/lab-ai-prediction), que comecou como copia do datasus-ai-prediction, com historico novo. Correcoes e desfechos novos entram so la.
+>
+> - **Issues e pull requests novos** vao para o [fabianofilho/lab-ai-prediction](https://github.com/fabianofilho/lab-ai-prediction), nao para ca nem para o fabianofilho/datasus-ai-prediction.
+> - **Procedencia do benchmark.** O commit [`b79bc78`](https://github.com/fabianofilho/datasus-ai-prediction/commit/b79bc7859d3a3de6f2681a0d5d3e59794a62c11c) do fabianofilho/datasus-ai-prediction, de 2026-06-27, continua acessivel naquele repositorio e e a procedencia do codigo vendorizado no datasus-preprocessing-benchmark. Ele nao faz parte do historico deste fork.
+> - Quando o lab-ai-prediction for transferido para a organizacao [labdaps](https://github.com/labdaps), o GitHub redireciona os links que apontam para ele.
+
 <p align="center">
   <img src="favicon.png" alt="DataSUS AI Prediction" width="80" />
 </p>
@@ -201,7 +208,7 @@ recordlinkage>=0.15
 
 ## Contribuindo
 
-Pull requests sao bem-vindos. Para novos desfechos, implemente uma subclasse de `OutcomeConfig` em `core/outcomes/` seguindo os exemplos existentes.
+Este repositorio esta arquivado e nao recebe pull requests. Contribuicoes, inclusive desfechos novos, vao para o app canonico, o [fabianofilho/lab-ai-prediction](https://github.com/fabianofilho/lab-ai-prediction).
 
 ---
 
